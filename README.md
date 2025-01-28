@@ -44,7 +44,7 @@ npm install
 ## Environment Setup
 Create a `.env` file in the `server` directory:
 ```env
-PORT=5000
+PORT=3000
 MONGO_URI=<your-mongodb-connection-string>
 ```
 
@@ -91,9 +91,9 @@ npm run dev
 ```
 
 ## Example API Requests
-### Create Item
-```bash
-POST /api/items
+### Create user
+```Thunder client
+[POST /api/createuser]: 'http://localhost:3000/api/register'
 Content-Type: application/json
 
 {
