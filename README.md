@@ -8,10 +8,10 @@ GitHub Repository: [mern-project](https://github.com/Vilashkachare19/mern-projec
 
 ## Features
 
-- Add new items to the database (Create)
-- View items in a list (Read)
-- Edit existing items (Update)
-- Delete items from the database (Delete)
+- Add new user to the database (Create)
+- View user in a list (Read)
+- Edit existing users (Update)
+- Delete users from the database (Delete)
 
 ## Technologies Used
 
