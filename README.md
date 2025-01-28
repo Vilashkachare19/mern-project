@@ -65,29 +65,29 @@ npm run dev
 ### To Login URL: 'http://localhost:3000/api/login'
 
 | **Method** | **Endpoint**         | **Description**         |
-|-----------|---------------------|------------------------|
-| GET       | `/api/getll`        | Get all items         |
-| POST      | `/api/register`     | Create a new item     |
-| GET       | `/api/finduser/:id` | Get item by ID        |
-| PUT       | `/api/update/:id`   | Update item           |
-| DELETE    | `/api/delete/:id`   | Delete item           |
+|-----------|---------------------|--------------------------|
+| GET       | `/api/getll`        | Get all users            |
+| POST      | `/api/register`     | Register a new user      |
+| GET       | `/api/finduser/:id` | Get user by ID           |
+| PUT       | `/api/update/:id`   | Update user              |
+| DELETE    | `/api/delete/:id`   | Delete user              |
 
 ## Basic entry
 ```json
   {
         name:{
-            type:String
+            type:String;
         },
         email:{
-            type:String,
+            type:String;
         },
         password:{
-            type:String
+            type:String;
         },
         age:{
-            type:Number
-        },
-       
+            type:Number;
+        };
+}
 ```
 
 ## Example API Requests
